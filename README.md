@@ -17,10 +17,15 @@ This script assists in automating maintenance tasks for the ISPConfig server. It
 - **ISPConfig script execution**: Runs the `/usr/local/ispconfig/server/server.sh` and `/usr/local/ispconfig/server/cron.sh` files.
 - **Crontab check**: Verifies that the root crontab contains the necessary entries.
 
-## Security Warnings
+## Security warnings
 
 - Ensure you have the proper permissions, especially when performing operations that require root access.
 - Passwords are not displayed during terminal input for security reasons.
+
+## Tested
+
+- Ubuntu 20.04.6 LTS (Focal Fossa)) ISPConfig 3.2.11p2
+- Ubuntu 22.04.6 LTS (Focal Fossa)) ISPConfig 3.2.11p2
 
 
 ----------
@@ -45,7 +50,12 @@ Ez a szkript segít automatizálni az ISPConfig szerver karbantartási feladatai
 - **ISPConfig szkriptek futtatása**: A `/usr/local/ispconfig/server/server.sh` és `/usr/local/ispconfig/server/cron.sh` fájlok futtatása.
 - **Crontab ellenőrzés**: Ellenőrzi, hogy a root crontab tartalmazza-e a szükséges bejegyzéseket.
 
-## Biztonsági Figyelmeztetések
+## Biztonsági figyelmeztetések
 
 - Győződj meg róla, hogy megfelelő jogosultsággal rendelkezel, különösen amikor root hozzáférést igénylő műveleteket végzel.
 - A jelszavakat a terminálban való beírás során nem jelenítjük meg biztonsági okokból.
+
+## Tesztelve
+
+- Ubuntu 20.04.6 LTS (Focal Fossa)) ISPConfig 3.2.11p2
+- Ubuntu 22.04.6 LTS (Focal Fossa)) ISPConfig 3.2.11p2
